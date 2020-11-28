@@ -28,18 +28,13 @@ function generateMarkdown(data) {
   
  ${data.usage}  
 
-
-  
   ## License
   
-  ${data.license}  
+  ${data.license === "MIT" ? "[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)" : data.license ==="GPL" ? "[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)" : "[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)"}
+
+  ## Badge
   
-
-  ## Badges
-  
-  ${data.badges === "commit"? "[![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=flat)]()" : data.badges === "pull requests" ? "[![GitHub pull requests](https://img.shields.io/github/issues-pr/cdnjs/cdnjs.svg?style=flat)]()" : data.badges === "npm" ? "[![NPM Version](https://img.shields.io/npm/v/npm.svg?style=flat)]()" : "[![Issues](https://img.shields.io/github/issues-raw/tterb/PlayMusic.svg?maxAge=25000)](https://github.com/tterb/Hyde/issues)"}
-
-
+  ${data.badges === "commit" ? "[![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=flat)]()" : data.badges === "pull requests" ? "[![GitHub pull requests](https://img.shields.io/github/issues-pr/cdnjs/cdnjs.svg?style=flat)]()" : data.badges === "npm" ? "[![NPM Version](https://img.shields.io/npm/v/npm.svg?style=flat)]()" : "[![Issues](https://img.shields.io/github/issues-raw/tterb/PlayMusic.svg?maxAge=25000)](https://github.com/tterb/Hyde/issues)"}
   
   ## Contributing
   
@@ -54,7 +49,6 @@ function generateMarkdown(data) {
   Github Profile: ${data.profile}  
   Email: ${data.email}
   
-
  
 `;
 }

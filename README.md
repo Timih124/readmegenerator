@@ -1,9 +1,8 @@
-# HTML Project
+# Read Me Generator
 
   ## Description 
   
-  Building a readme genrator 
-  
+  generates readmes
   
   ## Table of Contents (Optional)
   
@@ -20,37 +19,31 @@
   
   ## Installation
   
-  node
+  To install application need to open the terminal within the folder and run NODE for the command to ask users questions to generate a README.
   
   ## Usage 
   
- Automating Readmes  
+ Project is jused for the autmomating and generating README's  
 
-
-  
   ## License
   
-  AGPL  
-  
+  [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 
   ## Badges
   
-  [![NPM Version](https://img.shields.io/npm/v/npm.svg?style=flat)]()
-
-
+  [![GitHub pull requests](https://img.shields.io/github/issues-pr/cdnjs/cdnjs.svg?style=flat)]()
   
   ## Contributing
   
-    
+  Tim Hackel with assistance from my tutor Phil Loy  
   
   ## Tests
   
-    
+  By running node though your terminal to have a list a questions get pulled.  
     
   ## Questions
   
   Github Profile: https://github.com/Timih124  
   Email: tim.hackel24@gmail.com
   
-
  

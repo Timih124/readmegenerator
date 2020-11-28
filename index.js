@@ -33,7 +33,7 @@ const questions = [
     },
     {
         type: "list",
-        message: "Pick a badge.",
+        message: "Pick a fun badge.",
         choices: ['commit', 'pull requests', 'npm', 'issues'],
         name: "badges",
     },
