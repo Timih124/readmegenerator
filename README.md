@@ -4,7 +4,7 @@
   
   This project automates readmes to speed up the process but also have a quality README as well.
   
-  <iframe src="https://drive.google.com/file/d/1RgHK_IibnCtL0JIo6Og-W6FKPizLjxty/preview" width="640" height="480"></iframe>
+  Demo Video: https://drive.google.com/file/d/1RgHK_IibnCtL0JIo6Og-W6FKPizLjxty/preview
   
   
   ## Table of Contents (Optional)
