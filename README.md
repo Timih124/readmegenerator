@@ -1,8 +1,11 @@
-# Read Me Generator
+# README Generator
 
   ## Description 
   
-  generates readmes
+  This project automates readmes to speed up the process but also have a quality README as well.
+  
+  <iframe src="https://drive.google.com/file/d/1RgHK_IibnCtL0JIo6Og-W6FKPizLjxty/preview" width="640" height="480"></iframe>
+  
   
   ## Table of Contents (Optional)
   
@@ -19,27 +22,27 @@
   
   ## Installation
   
-  To install application need to open the terminal within the folder and run NODE for the command to ask users questions to generate a README.
+  Install app by using Node
   
   ## Usage 
   
- Project is jused for the autmomating and generating README's  
+ Automating README's. README's aren't the most fun to build so this actually more fun and much faster.  
 
   ## License
   
   [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 
-  ## Badges
+  ## Badge
   
-  [![GitHub pull requests](https://img.shields.io/github/issues-pr/cdnjs/cdnjs.svg?style=flat)]()
+  [![Issues](https://img.shields.io/github/issues-raw/tterb/PlayMusic.svg?maxAge=25000)](https://github.com/tterb/Hyde/issues)
   
   ## Contributing
   
-  Tim Hackel with assistance from my tutor Phil Loy  
+  Tim Hackel with assistance from my tutor Phil Loy.  
   
   ## Tests
   
-  By running node though your terminal to have a list a questions get pulled.  
+  test by running node inside terminal and project  
     
   ## Questions
   

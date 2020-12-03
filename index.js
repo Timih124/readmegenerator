@@ -3,7 +3,8 @@ const inquirer = require('inquirer')
 const generateMarkdown = require("./utils/generateMarkdown")
 const fs = require("fs")
 const axios = require("axios")
-// array of questions for user
+
+// array of questions for user to get asked to generate a radme
 const questions = [
     {
         type: "input",
@@ -31,8 +32,9 @@ const questions = [
         choices: ['MIT', 'GPL', 'AGPL'],
         name: "license",
     },
+    // added badges for fun
     {
-        type: "list",
+        type: "checkbox",
         message: "Pick a fun badge.",
         choices: ['commit', 'pull requests', 'npm', 'issues'],
         name: "badges",
